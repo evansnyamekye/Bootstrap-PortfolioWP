@@ -125,6 +125,11 @@ img {
   font-size: 20px;
 }
 
+.card p {
+  font-size: 15px;
+  color: #344563;
+}
+
 .banner .banner-text p {
   font-weight: 400;
   font-size: 16px;
@@ -177,24 +182,40 @@ img {
 
 .card .cano {
   display: flex;
+  margin: 10px;
+  padding-left: 0 !important;
+  margin-bottom: 22px;
 }
 
-.work .lang li {
+.work .card .cano {
+  display: flex;
+  margin-bottom: 32px;
+}
+
+.lang li {
   margin-bottom: 10px;
   margin-right: -18%;
 }
 
-.work .card .cano li {
-  margin-right: 10px;
-  font-weight: 600;
-  font-size: 13px;
-  color: #7a869a;
+.work .lang li {
+  margin-bottom: 10px;
 }
 
 .work .card .cano li i {
   color: #7a869a;
   font-size: 10px;
   margin-left: 10px;
+}
+
+.card .cano li {
+  margin-right: 10px;
+  font-weight: 600;
+  font-size: 13px;
+  color: #7a869a;
+}
+
+.work .card .cano li {
+  font-size: 18px;
 }
 
 .work .card .cano li:first-child {
@@ -207,9 +228,23 @@ img {
   margin-left: 10px;
 }
 
+.lang {
+  display: flex;
+
+  /* flex-wrap: wrap; */
+}
+
 .work .lang {
   display: flex;
   flex-wrap: wrap;
+}
+
+.card-left-desk {
+  display: block;
+}
+
+.work .card-left-desk {
+  display: none;
 }
 
 .work .card h2 {
@@ -223,15 +258,6 @@ img {
 .work .card {
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
-}
-
-.work .card .cano {
-  display: flex;
-  margin: 10px;
-}
-
-.work .card .cano li {
-  font-size: 18px;
 }
 
 .work .card p {
@@ -258,10 +284,6 @@ img {
   display: none;
 }
 
-.work .card-left-desk {
-  display: block;
-}
-
 .work .lang a {
   padding: 5px 10px;
   margin-right: 10px;
@@ -297,53 +319,3 @@ img {
 .card-right {
   padding: 28px 16px;
 }
-
-.work .lang a {
-  padding: 5px 10px;
-  margin-right: 10px;
-  background: #ebebff;
-  font-weight: 500;
-  font-size: 12px;
-  color: #6070ff;
-  border-radius: 8px;
-
-}
-
-.work .lang {
-  display: flex;
-  /* flex-wrap: wrap; */
-  
-}
-
-.work .lang li {
-  margin-bottom: 10px;
-  margin-right: -18%;
-}
-
-.btn-default {
-  border: 1px solid #6070ff;
-  border-radius: 8px;
-  width: 126px;
-  height: 48px;
-  background: #fff;
-  font-weight: 500;
-  font-size: 17px;
-  margin-top: 10px;
-  color: #396df2;
-}
-
-.btn-default:active {
-  background-color: #2230d2;
-  color: #fff;
-}
-
-.btn-default:hover {
-  background-color: #6070ff;
-  color: #fff;
-}
-
-.card-right {
-  padding: 28px 16px;
-}
-
-
