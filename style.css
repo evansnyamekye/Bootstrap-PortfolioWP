@@ -165,7 +165,7 @@ img {
   padding: 5rem 9rem;
 }
 
-.work .card {
+.card {
   display: grid;
   grid-template-columns: 1fr;
   background-color: #fff;
@@ -175,12 +175,22 @@ img {
   margin-top: 104px;
 }
 
-.work .card .cano {
+.card .cano {
   display: flex;
+  margin-bottom: 32px;
+}
+
+.lang li {
+  margin-bottom: 10px;
+}
+
+.card .cano li {
+  font-size: 18px;
 }
 
 .work .lang li {
   margin-bottom: 10px;
+  margin-right: -18%;
 }
 
 .work .card .cano li {
@@ -206,18 +216,9 @@ img {
   margin-left: 10px;
 }
 
-.work .card p {
-  font-size: 15px;
-  color: #344563;
-}
-
 .work .lang {
   display: flex;
   flex-wrap: wrap;
-}
-
-.work .card-left-desk {
-  display: none;
 }
 
 .work .card h2 {
@@ -236,19 +237,19 @@ img {
 .work .card .cano {
   display: flex;
   margin: 10px;
-}
-
-.work .card .cano li {
-  font-size: 18px;
+  padding-left: 0 !important;
+  margin-bottom: 22px;
 }
 
 .work .card p {
   font-size: 16px;
   margin-top: 10px;
+  margin-bottom: 22px;
 }
 
 .work .card .lang {
   margin-top: 10px;
+  padding-left: 0 !important;
 }
 
 .contact button {
@@ -268,6 +269,38 @@ img {
   display: block;
 }
 
-.navbar-brand logo {
-  color: var(--primary-color);
+.work .lang a {
+  padding: 5px 10px;
+  margin-right: 10px;
+  background: #ebebff;
+  font-weight: 500;
+  font-size: 12px;
+  color: #6070ff;
+  border-radius: 8px;
+}
+
+.btn-default {
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  width: 126px;
+  height: 48px;
+  background: #fff;
+  font-weight: 500;
+  font-size: 17px;
+  margin-top: 10px;
+  color: #396df2;
+}
+
+.btn-default:active {
+  background-color: #2230d2;
+  color: #fff;
+}
+
+.btn-default:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.card-right {
+  padding: 28px 16px;
 }
