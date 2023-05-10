@@ -177,15 +177,6 @@ img {
 
 .card .cano {
   display: flex;
-  margin-bottom: 32px;
-}
-
-.lang li {
-  margin-bottom: 10px;
-}
-
-.card .cano li {
-  font-size: 18px;
 }
 
 .work .lang li {
@@ -237,8 +228,10 @@ img {
 .work .card .cano {
   display: flex;
   margin: 10px;
-  padding-left: 0 !important;
-  margin-bottom: 22px;
+}
+
+.work .card .cano li {
+  font-size: 18px;
 }
 
 .work .card p {
@@ -304,3 +297,53 @@ img {
 .card-right {
   padding: 28px 16px;
 }
+
+.work .lang a {
+  padding: 5px 10px;
+  margin-right: 10px;
+  background: #ebebff;
+  font-weight: 500;
+  font-size: 12px;
+  color: #6070ff;
+  border-radius: 8px;
+
+}
+
+.work .lang {
+  display: flex;
+  /* flex-wrap: wrap; */
+  
+}
+
+.work .lang li {
+  margin-bottom: 10px;
+  margin-right: -18%;
+}
+
+.btn-default {
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  width: 126px;
+  height: 48px;
+  background: #fff;
+  font-weight: 500;
+  font-size: 17px;
+  margin-top: 10px;
+  color: #396df2;
+}
+
+.btn-default:active {
+  background-color: #2230d2;
+  color: #fff;
+}
+
+.btn-default:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.card-right {
+  padding: 28px 16px;
+}
+
+
